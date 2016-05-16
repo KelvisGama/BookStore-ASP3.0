@@ -1,0 +1,192 @@
+﻿html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #e5e5e5;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+
+
+body > .container {
+    padding: 60px 15px 0;
+}
+
+.container .text-muted {
+    margin: 20px 0;
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+code {
+    font-size: 80%;
+}
+
+.logo {
+    padding-top: 0px;
+}
+
+.logo-img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    float: left;
+}
+
+.logo-book {
+    font-size: 30px;
+    color: #865022;
+    position: relative;
+    float: left;
+    margin: 18px 10px;
+    font-weight: bold;
+}
+
+.logo-store {
+    color: #f2af10;
+    font-size: 30px;
+}
+
+.cover-thumb {
+    width: 200px;
+    height: 280px;
+    float: left;
+    margin-right: 20px;
+}
+
+.title-thumb {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f2af10;
+}
+
+.row {
+    margin-bottom: 30px;
+}
+
+
+.label-success {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    padding: 5px;
+}
+
+.book-item:hover {
+    background-color: #e5e5e5;
+}
+
+.book-thumb:hover {
+    text-decoration: none;
+}
+
+.price-thumb {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.symbol {
+    font-size: 20px;
+}
+
+.cover {
+    max-height: 500px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #f2af10;
+}
+
+    .title small {
+        color: #865022;
+    }
+
+.price {
+    font-size: 70px;
+    font-weight: bold;
+    color: #f2af10;
+}
+
+.container > .navbar-header {
+    margin-right: 30px;
+    margin-left: 0;
+}
+
+#navbar-admin {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #f2af10;    
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+    .form-signin .form-signin-heading,
+    .form-signin .checkbox {
+        margin-bottom: 10px;
+    }
+
+    .form-signin .checkbox {
+        font-weight: normal;
+    }
+
+    .form-signin .form-control {
+        position: relative;
+        height: auto;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+        .form-signin .form-control:focus {
+            z-index: 2;
+        }
+
+    .form-signin input[type="email"] {
+        margin-bottom: -1px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .form-signin input[type="password"] {
+        margin-bottom: 10px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+.sair {
+    float:right;
+}
+
+.form-add-book{
+    padding:20px;
+    max-width:500px;
+    float:left;
+}
+
+.input-group{
+    margin-bottom:20px;
+}
