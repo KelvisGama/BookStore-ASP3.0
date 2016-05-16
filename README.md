@@ -19,6 +19,8 @@ Na página de `categorias` são exibidos todos os livros vinculados àquela cate
 A área restrita consite em painel de administração dos dados da área pública.
 É possível `cadastrar, alterar e excluir uma categoria`, `cadastrar, alterar e excluir um livro` e também é possível vincular um livro à uma determinada categoria.
 
+Para acessar a área pública é necessário efetuar Login.
+
 ## Banco de Dados
 Toda interação entre aplicação e banco de dados foi feita utilizando `storage procedores`.
 
@@ -28,11 +30,15 @@ Toda interação entre aplicação e banco de dados foi feita utilizando `storag
 - **Author** - Tabela que armazena os autores cadastrados.
 - **BookCategory** - Tabela que amarzena os vinculos entre a tabela **Book** e a tabela **Category**.
 - **BookAuthor** - Tabela que armazena os vinculos entre a tabela **Book** e tabela **Author**.
+- **Login** - Armazena os dados de login dos usuários do Painel.
+- 
+# Como Usar
+ - Criar um novo site no IIS
+ - Copiar todos os arquivos do projeto dentro da pasta raiz do site
+ - executar o arquivo `script.sql` em um servidor SQL Server (O arquivo irá criar o BD com as tabelas e as procedures necessárias)
+ - **O arquivo Global.asa contén os dados de conexão com o BD** altere-os conforme a necessidade.
 
-### Procedures
-- **sp_Book_Sel** Retorna todos os livros cadastrados
-- **sp_Book_Sel_Id** Retorna os dados de um livro informando seu IdBook.
-- **sp_Book_Ins** Insere um novo livro no banco
-- **sp_Book_Upd** Altera os dados de um livro informando seu IdBook.
-- **sp_Book_Del** Remove um livro informando seu IdBook.
-
+# Melhorias
+ - Layout
+ - Mais funcionalidades (como o cadastro de autores)
+ - Terminar o desenvolvimento pendendte.
