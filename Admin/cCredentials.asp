@@ -44,7 +44,7 @@
             Dim cmd : Set cmd = Server.CreateObject("ADODB.Command")
             Set cmd.ActiveConnection = oConn
             cmd.CommandText = "sp_Login"
-            cmd.CommandType = adCmdStoredProc
+            cmd.CommandType = 4'adCmdStoredProc
             cmd.NamedParameters = true
             cmd.Parameters("@str_User") = Me.User
             cmd.Parameters("@str_Pass") = Me.Pass
